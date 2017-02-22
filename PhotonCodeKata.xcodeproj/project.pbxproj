@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69AC737D1E5CE20B00B902F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AC737C1E5CE20B00B902F7 /* AppDelegate.swift */; };
+		69AC737F1E5CE20B00B902F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AC737E1E5CE20B00B902F7 /* ViewController.swift */; };
+		69AC73821E5CE20B00B902F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69AC73801E5CE20B00B902F7 /* Main.storyboard */; };
+		69AC73841E5CE20B00B902F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69AC73831E5CE20B00B902F7 /* Assets.xcassets */; };
+		69AC73871E5CE20B00B902F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69AC73851E5CE20B00B902F7 /* LaunchScreen.storyboard */; };
+		69AC73921E5CE20B00B902F7 /* PhotonCodeKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AC73911E5CE20B00B902F7 /* PhotonCodeKataTests.swift */; };
+		69AC739D1E5CE20B00B902F7 /* PhotonCodeKataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AC739C1E5CE20B00B902F7 /* PhotonCodeKataUITests.swift */; };
+		69AC73AC1E5CE46500B902F7 /* LowCostPathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AC73AB1E5CE46500B902F7 /* LowCostPathFinder.swift */; };
+		69AC73AE1E5CE68200B902F7 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AC73AD1E5CE68200B902F7 /* Matrix.swift */; };
+		69AC73B01E5CE88100B902F7 /* InputElementParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AC73AF1E5CE88100B902F7 /* InputElementParser.swift */; };
+		69AC73B21E5CF67E00B902F7 /* PCKInputElementParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AC73B11E5CF67E00B902F7 /* PCKInputElementParserTests.swift */; };
+		69AC73B41E5CF7EC00B902F7 /* PCKMatrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AC73B31E5CF7EC00B902F7 /* PCKMatrixTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69AC738E1E5CE20B00B902F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69AC73711E5CE20B00B902F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69AC73781E5CE20B00B902F7;
+			remoteInfo = PhotonCodeKata;
+		};
+		69AC73991E5CE20B00B902F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69AC73711E5CE20B00B902F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69AC73781E5CE20B00B902F7;
+			remoteInfo = PhotonCodeKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69AC73791E5CE20B00B902F7 /* PhotonCodeKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotonCodeKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69AC737C1E5CE20B00B902F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69AC737E1E5CE20B00B902F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69AC73811E5CE20B00B902F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69AC73831E5CE20B00B902F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69AC73861E5CE20B00B902F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69AC73881E5CE20B00B902F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69AC738D1E5CE20B00B902F7 /* PhotonCodeKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotonCodeKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69AC73911E5CE20B00B902F7 /* PhotonCodeKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotonCodeKataTests.swift; sourceTree = "<group>"; };
+		69AC73931E5CE20B00B902F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69AC73981E5CE20B00B902F7 /* PhotonCodeKataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotonCodeKataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69AC739C1E5CE20B00B902F7 /* PhotonCodeKataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotonCodeKataUITests.swift; sourceTree = "<group>"; };
+		69AC739E1E5CE20B00B902F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69AC73AB1E5CE46500B902F7 /* LowCostPathFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LowCostPathFinder.swift; path = PathOfLowCost/LowCostPathFinder.swift; sourceTree = "<group>"; };
+		69AC73AD1E5CE68200B902F7 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = PathOfLowCost/Matrix.swift; sourceTree = "<group>"; };
+		69AC73AF1E5CE88100B902F7 /* InputElementParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputElementParser.swift; path = PathOfLowCost/InputElementParser.swift; sourceTree = "<group>"; };
+		69AC73B11E5CF67E00B902F7 /* PCKInputElementParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PCKInputElementParserTests.swift; sourceTree = "<group>"; };
+		69AC73B31E5CF7EC00B902F7 /* PCKMatrixTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PCKMatrixTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69AC73761E5CE20B00B902F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69AC738A1E5CE20B00B902F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69AC73951E5CE20B00B902F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69AC73701E5CE20B00B902F7 = {
+			isa = PBXGroup;
+			children = (
+				69AC737B1E5CE20B00B902F7 /* PhotonCodeKata */,
+				69AC73901E5CE20B00B902F7 /* PhotonCodeKataTests */,
+				69AC739B1E5CE20B00B902F7 /* PhotonCodeKataUITests */,
+				69AC737A1E5CE20B00B902F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69AC737A1E5CE20B00B902F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69AC73791E5CE20B00B902F7 /* PhotonCodeKata.app */,
+				69AC738D1E5CE20B00B902F7 /* PhotonCodeKataTests.xctest */,
+				69AC73981E5CE20B00B902F7 /* PhotonCodeKataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69AC737B1E5CE20B00B902F7 /* PhotonCodeKata */ = {
+			isa = PBXGroup;
+			children = (
+				69AC73AA1E5CE41D00B902F7 /* PathOfLowCost */,
+				69AC737C1E5CE20B00B902F7 /* AppDelegate.swift */,
+				69AC737E1E5CE20B00B902F7 /* ViewController.swift */,
+				69AC73801E5CE20B00B902F7 /* Main.storyboard */,
+				69AC73831E5CE20B00B902F7 /* Assets.xcassets */,
+				69AC73851E5CE20B00B902F7 /* LaunchScreen.storyboard */,
+				69AC73881E5CE20B00B902F7 /* Info.plist */,
+			);
+			path = PhotonCodeKata;
+			sourceTree = "<group>";
+		};
+		69AC73901E5CE20B00B902F7 /* PhotonCodeKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				69AC73911E5CE20B00B902F7 /* PhotonCodeKataTests.swift */,
+				69AC73B11E5CF67E00B902F7 /* PCKInputElementParserTests.swift */,
+				69AC73B31E5CF7EC00B902F7 /* PCKMatrixTests.swift */,
+				69AC73931E5CE20B00B902F7 /* Info.plist */,
+			);
+			path = PhotonCodeKataTests;
+			sourceTree = "<group>";
+		};
+		69AC739B1E5CE20B00B902F7 /* PhotonCodeKataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69AC739C1E5CE20B00B902F7 /* PhotonCodeKataUITests.swift */,
+				69AC739E1E5CE20B00B902F7 /* Info.plist */,
+			);
+			path = PhotonCodeKataUITests;
+			sourceTree = "<group>";
+		};
+		69AC73AA1E5CE41D00B902F7 /* PathOfLowCost */ = {
+			isa = PBXGroup;
+			children = (
+				69AC73AB1E5CE46500B902F7 /* LowCostPathFinder.swift */,
+				69AC73AD1E5CE68200B902F7 /* Matrix.swift */,
+				69AC73AF1E5CE88100B902F7 /* InputElementParser.swift */,
+			);
+			name = PathOfLowCost;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69AC73781E5CE20B00B902F7 /* PhotonCodeKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69AC73A11E5CE20B00B902F7 /* Build configuration list for PBXNativeTarget "PhotonCodeKata" */;
+			buildPhases = (
+				69AC73751E5CE20B00B902F7 /* Sources */,
+				69AC73761E5CE20B00B902F7 /* Frameworks */,
+				69AC73771E5CE20B00B902F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotonCodeKata;
+			productName = PhotonCodeKata;
+			productReference = 69AC73791E5CE20B00B902F7 /* PhotonCodeKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69AC738C1E5CE20B00B902F7 /* PhotonCodeKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69AC73A41E5CE20B00B902F7 /* Build configuration list for PBXNativeTarget "PhotonCodeKataTests" */;
+			buildPhases = (
+				69AC73891E5CE20B00B902F7 /* Sources */,
+				69AC738A1E5CE20B00B902F7 /* Frameworks */,
+				69AC738B1E5CE20B00B902F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69AC738F1E5CE20B00B902F7 /* PBXTargetDependency */,
+			);
+			name = PhotonCodeKataTests;
+			productName = PhotonCodeKataTests;
+			productReference = 69AC738D1E5CE20B00B902F7 /* PhotonCodeKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69AC73971E5CE20B00B902F7 /* PhotonCodeKataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69AC73A71E5CE20B00B902F7 /* Build configuration list for PBXNativeTarget "PhotonCodeKataUITests" */;
+			buildPhases = (
+				69AC73941E5CE20B00B902F7 /* Sources */,
+				69AC73951E5CE20B00B902F7 /* Frameworks */,
+				69AC73961E5CE20B00B902F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69AC739A1E5CE20B00B902F7 /* PBXTargetDependency */,
+			);
+			name = PhotonCodeKataUITests;
+			productName = PhotonCodeKataUITests;
+			productReference = 69AC73981E5CE20B00B902F7 /* PhotonCodeKataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69AC73711E5CE20B00B902F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = AryaVahni;
+				TargetAttributes = {
+					69AC73781E5CE20B00B902F7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G5Z7B59G52;
+						ProvisioningStyle = Automatic;
+					};
+					69AC738C1E5CE20B00B902F7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G5Z7B59G52;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 69AC73781E5CE20B00B902F7;
+					};
+					69AC73971E5CE20B00B902F7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G5Z7B59G52;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 69AC73781E5CE20B00B902F7;
+					};
+				};
+			};
+			buildConfigurationList = 69AC73741E5CE20B00B902F7 /* Build configuration list for PBXProject "PhotonCodeKata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69AC73701E5CE20B00B902F7;
+			productRefGroup = 69AC737A1E5CE20B00B902F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69AC73781E5CE20B00B902F7 /* PhotonCodeKata */,
+				69AC738C1E5CE20B00B902F7 /* PhotonCodeKataTests */,
+				69AC73971E5CE20B00B902F7 /* PhotonCodeKataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69AC73771E5CE20B00B902F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69AC73871E5CE20B00B902F7 /* LaunchScreen.storyboard in Resources */,
+				69AC73841E5CE20B00B902F7 /* Assets.xcassets in Resources */,
+				69AC73821E5CE20B00B902F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69AC738B1E5CE20B00B902F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69AC73961E5CE20B00B902F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69AC73751E5CE20B00B902F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69AC73AE1E5CE68200B902F7 /* Matrix.swift in Sources */,
+				69AC73AC1E5CE46500B902F7 /* LowCostPathFinder.swift in Sources */,
+				69AC737F1E5CE20B00B902F7 /* ViewController.swift in Sources */,
+				69AC737D1E5CE20B00B902F7 /* AppDelegate.swift in Sources */,
+				69AC73B01E5CE88100B902F7 /* InputElementParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69AC73891E5CE20B00B902F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69AC73B41E5CF7EC00B902F7 /* PCKMatrixTests.swift in Sources */,
+				69AC73B21E5CF67E00B902F7 /* PCKInputElementParserTests.swift in Sources */,
+				69AC73921E5CE20B00B902F7 /* PhotonCodeKataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69AC73941E5CE20B00B902F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69AC739D1E5CE20B00B902F7 /* PhotonCodeKataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69AC738F1E5CE20B00B902F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69AC73781E5CE20B00B902F7 /* PhotonCodeKata */;
+			targetProxy = 69AC738E1E5CE20B00B902F7 /* PBXContainerItemProxy */;
+		};
+		69AC739A1E5CE20B00B902F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69AC73781E5CE20B00B902F7 /* PhotonCodeKata */;
+			targetProxy = 69AC73991E5CE20B00B902F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69AC73801E5CE20B00B902F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69AC73811E5CE20B00B902F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69AC73851E5CE20B00B902F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69AC73861E5CE20B00B902F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69AC739F1E5CE20B00B902F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69AC73A01E5CE20B00B902F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69AC73A21E5CE20B00B902F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G5Z7B59G52;
+				INFOPLIST_FILE = PhotonCodeKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aryavahni.PhotonCodeKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		69AC73A31E5CE20B00B902F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G5Z7B59G52;
+				INFOPLIST_FILE = PhotonCodeKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aryavahni.PhotonCodeKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		69AC73A51E5CE20B00B902F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G5Z7B59G52;
+				INFOPLIST_FILE = PhotonCodeKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aryavahni.PhotonCodeKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotonCodeKata.app/PhotonCodeKata";
+			};
+			name = Debug;
+		};
+		69AC73A61E5CE20B00B902F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G5Z7B59G52;
+				INFOPLIST_FILE = PhotonCodeKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aryavahni.PhotonCodeKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotonCodeKata.app/PhotonCodeKata";
+			};
+			name = Release;
+		};
+		69AC73A81E5CE20B00B902F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G5Z7B59G52;
+				INFOPLIST_FILE = PhotonCodeKataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aryavahni.PhotonCodeKataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PhotonCodeKata;
+			};
+			name = Debug;
+		};
+		69AC73A91E5CE20B00B902F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G5Z7B59G52;
+				INFOPLIST_FILE = PhotonCodeKataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aryavahni.PhotonCodeKataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PhotonCodeKata;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69AC73741E5CE20B00B902F7 /* Build configuration list for PBXProject "PhotonCodeKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69AC739F1E5CE20B00B902F7 /* Debug */,
+				69AC73A01E5CE20B00B902F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69AC73A11E5CE20B00B902F7 /* Build configuration list for PBXNativeTarget "PhotonCodeKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69AC73A21E5CE20B00B902F7 /* Debug */,
+				69AC73A31E5CE20B00B902F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69AC73A41E5CE20B00B902F7 /* Build configuration list for PBXNativeTarget "PhotonCodeKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69AC73A51E5CE20B00B902F7 /* Debug */,
+				69AC73A61E5CE20B00B902F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69AC73A71E5CE20B00B902F7 /* Build configuration list for PBXNativeTarget "PhotonCodeKataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69AC73A81E5CE20B00B902F7 /* Debug */,
+				69AC73A91E5CE20B00B902F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69AC73711E5CE20B00B902F7 /* Project object */;
+}
