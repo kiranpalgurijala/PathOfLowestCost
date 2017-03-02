@@ -29,7 +29,7 @@ class ViewController: UIViewController, UITextViewDelegate {
     }
     
     func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
-        if !["0","1","2","3","4","5","6","7","8","9"," ","\n",""].contains(text) {
+        if !["0","1","2","3","4","5","6","7","8","9"," ","\n","","-"].contains(text) {
             // Dismiss the keyboard on an invalid key press
             textView.resignFirstResponder()
             
