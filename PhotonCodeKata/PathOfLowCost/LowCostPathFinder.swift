@@ -46,8 +46,14 @@ class LowCostPathFinder {
         let (r, c) = coords
         let path = prevPath + [r]
         
+        var maxP = 50
+        if(m.get((1,1)) >= 60){
+            maxP = 60
+        }
+        
         // Base cases that stop the recursion.
-        if resistance > 60 {
+        
+        if resistance > maxP {
             return (false, prevResistance, prevPath)
         } else if c == m.columns {
             return (true, resistance, path)
